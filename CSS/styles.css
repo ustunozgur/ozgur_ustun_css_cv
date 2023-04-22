@@ -1,0 +1,128 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    display: table;
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+    .left_column{
+        background-color: teal;
+        display: table-cell;
+        vertical-align: top;
+        width: 250px;
+        padding: 1rem;
+    }
+
+    .right_column{
+        background-color: white;
+        display: table-cell;
+        vertical-align: top;
+        width: auto;
+        padding: 1rem;
+    }
+
+.img01{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    
+    position: fixed;
+    bottom: 100px;
+    width: 100%;
+    color: white;
+}
+
+
+.menu-a:link { color: white;text-decoration: none; }
+
+
+.menu-a:visited { color: white;text-decoration: none; }
+
+
+.menu-a:hover { color: red;text-decoration: none; }
+
+
+.menu-a:active { color: purple;text-decoration: none; }
+
+.lnk01-a {
+    color: white;text-decoration: none;
+}
+
+.edu{
+    background-color: #e3fff0;
+}
+
+.exp
+{
+    background-color: #d0ffe7; 
+}
+
+.cert
+{
+    background-color: #bfffdf;
+}
+
+.volt
+{
+    background-color: #b7ffdb;
+}
+
+.skls
+{
+    background-color: #a8ffd3;
+}
+
+.hbs
+{
+    background-color: #95ffca;
+}
+
+.header01{
+    color:white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.header02{
+    color:white;
+    font-size: 14px;
+}
+
+.header03{
+    font-size: 25px;
+    font-family: 'Merriweather',Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.edu01{
+    font-size: 14px;
+}
+.name{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Sacramento',serif;
+}
+
+.bio{
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+.footer{
+    width: 100%;
+    height: 70px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: smaller;
+    background-color: rgb(1, 75, 75);
+    color: white;
+    font-family: 'Montserrat',Verdana, Geneva, Tahoma, sans-serif;
+    /*position: fixed;
+    bottom: 0;*/
+}
